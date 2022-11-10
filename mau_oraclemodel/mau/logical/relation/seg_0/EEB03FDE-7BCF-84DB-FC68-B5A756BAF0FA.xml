@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXHIBITION_SALE" directorySegmentName="seg_0" id="EEB03FDE-7BCF-84DB-FC68-B5A756BAF0FA">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 05:20:55 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<sourcePk>360C1EB8-31F9-2C9B-7D75-6A88577F6280</sourcePk>
+<targetPk>43AE9DF7-7BF4-A7A0-8854-E6F9265FCE0B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>generates</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0DEE94E9-4E2D-FFFF-6413-9AFA2E714617</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A0F81B57-52E8-07A0-E3A4-8BFFF52B5CBB</targetEntity>
+<transferable>true</transferable>
+</Relation>

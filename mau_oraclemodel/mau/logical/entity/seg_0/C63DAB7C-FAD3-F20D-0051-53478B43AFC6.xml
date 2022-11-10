@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C63DAB7C-FAD3-F20D-0051-53478B43AFC6" name="GALLERY">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:48:33 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Gal_id" id="26EFD3CD-A2DC-FAC1-23B8-F739652823B8">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:48:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery identifier]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_name" id="B850664B-ACBB-1707-BB89-66B64A625A0D">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:49:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Manager_fname" id="AA3317C0-8D6C-5FBD-B4F4-A7425563A005">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:49:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Managerfirst  name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Manager_lname" id="DC7E35D3-7675-7B19-BF49-14A7168D09F3">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-07 07:57:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager last name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_street" id="CEBE31CA-8A55-9E8E-E59C-6F47A2C51F14">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:50:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery street]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_town" id="8F112618-95FD-3A19-875D-F826B5D0137E">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:51:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery town]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_state" id="27AE6B69-4BA2-EB0F-29C5-6B38E5330BDF">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:51:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery state]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_tel_no" id="4BA6BB69-96B4-4CDE-82A0-1579EF2949B8">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:52:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery phone number]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_open" id="E83DB8E8-685C-5F29-2FFA-1CDC60EE70D6">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:52:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery open time]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gal_close" id="2CD3C4EB-9A92-A9A8-0487-646642BDF876">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:53:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery closing time]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0ABF715D-C752-0FAD-3121-EA343DD24784" name="GALLERY PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:49:04 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>26EFD3CD-A2DC-FAC1-23B8-F739652823B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

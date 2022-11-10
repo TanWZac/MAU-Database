@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA26E32D-37BC-A575-FF05-723E2F498A93" name="STYLE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>2677D57E-813D-A947-4D9B-6A3394B07394</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Artwork_style_no" id="8A2268F0-F99A-EFFD-0021-FB9B13F48304">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork_style_no]]></commentInRDBMS>
+<generatorID>DDEECF57-5E46-2C5A-34F6-3F0FA1381D25</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artwork_style" id="A563E00B-B492-8977-1C36-902F9254B808">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork style]]></commentInRDBMS>
+<generatorID>FC8361ED-F1E7-D41A-C92E-E21E4D231F79</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artwork_parent_style" id="7948FA96-8567-F72A-6655-E0AA7F047BB7">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork_parent_style]]></commentInRDBMS>
+<generatorID>E9906706-7458-C48E-5335-1FE92EB75B5B</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FED2653-4CE4-3998-19DB-4DE619CA2F20" name="STYLE_PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>4D73A5A5-8CB4-1FC0-06E0-C35F643232D5</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A2268F0-F99A-EFFD-0021-FB9B13F48304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A1DACC0-EA4C-E55C-D3CA-C91EC1DD52BB" name="NK_STYLE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>BD606640-3D72-10EE-77BC-CFD0144B3D54</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A563E00B-B492-8977-1C36-902F9254B808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

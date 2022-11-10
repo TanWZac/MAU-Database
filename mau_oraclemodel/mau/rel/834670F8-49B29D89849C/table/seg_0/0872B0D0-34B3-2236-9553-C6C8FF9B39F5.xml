@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0872B0D0-34B3-2236-9553-C6C8FF9B39F5" name="SALE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>0DEE94E9-4E2D-FFFF-6413-9AFA2E714617</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sale_id" id="21C4DAB0-2931-FC6B-6B3D-495F01F4FE5C">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sale identifier]]></commentInRDBMS>
+<generatorID>A6311AC9-785B-1FAA-D1F9-85BAB0485A77</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_of_sale" id="0E3B944C-B93F-BE04-9405-C5946AE28EBD">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of sale]]></commentInRDBMS>
+<generatorID>368AA76A-0453-56BF-0C68-120344689188</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_price" id="16A1C66C-8956-ED60-6CA8-5D0CA52C40CD">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sale price]]></commentInRDBMS>
+<generatorID>3E487C13-A1D5-DF60-A53C-16F09E00701C</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cus_id" id="AC5C6AC0-DD47-C45C-A041-FE3B366E94C0">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer identifier]]></commentInRDBMS>
+<generatorID>FA2ABD81-0B0A-704E-66FE-76E855C61E6F</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53229B70-79D4-14DA-9495-78674B33DE95" referredColumn="ACFACBA5-D446-EEF3-DD13-A0CC4219A164"/>
+</associations>
+</Column>
+<Column name="Artist_code" id="B9714BC4-24B1-CD70-C3BA-1C576B9F3DC9">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artist identifier]]></commentInRDBMS>
+<generatorID>93671CC6-782E-3674-8DE3-D0F59D044368</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6AFA8A3-E665-0EAF-94AB-2AD7E2590B2E" referredColumn="735EDB99-F5EC-B9B2-AF19-331172ED9CB9"/>
+</associations>
+</Column>
+<Column name="Artwork_no" id="2FEDC7BA-FDBD-6D38-9D1B-25CD891B935A">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork identifier]]></commentInRDBMS>
+<generatorID>39B2A7A5-2D28-608D-D8A2-CA008BB81F02</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6AFA8A3-E665-0EAF-94AB-2AD7E2590B2E" referredColumn="CAFB71CA-0ABD-8E6C-2C23-690B917C521C"/>
+</associations>
+</Column>
+<Column name="Exhibit_start" id="6FF3C30D-AC1F-34C3-5D37-65017C64BD50">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Exhibit start date]]></commentInRDBMS>
+<generatorID>6D6E6967-3816-2861-A92F-CA6397D7B93D</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_id" id="9DFC2332-439E-0349-28AB-D951EC00AFAE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery identifier]]></commentInRDBMS>
+<generatorID>4B8DBA20-D077-D281-78B0-0D9EFCE12533</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exhibit_no" id="FBC94261-67E1-8158-2593-9B840BA947E5">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 08:51:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key exhibit identifier]]></commentInRDBMS>
+<generatorID>FB937D52-2A1B-A450-D6E4-364935BACBD5</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64FB1E73-843C-6E14-5421-D29FC33CB8DC" referredColumn="13F245B7-5DE1-2675-356A-C594221A928B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD12F192-FEAE-186F-1B41-EDDADBBD2BE0" name="SALE_PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>360C1EB8-31F9-2C9B-7D75-6A88577F6280</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C4DAB0-2931-FC6B-6B3D-495F01F4FE5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62914292-CB9E-3EA6-6DB6-211157C46B60" name="SALE__IDX">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 06:38:21 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BE8A67AB-235A-B471-5CDA-AE18A0D7C336</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B9714BC4-24B1-CD70-C3BA-1C576B9F3DC9"/>
+<colUsage columnID="2FEDC7BA-FDBD-6D38-9D1B-25CD891B935A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1B495DC-5CDD-98A5-36BD-6EA524ED83ED" name="SALE__IDXv1">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 06:38:21 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EEB03FDE-7BCF-84DB-FC68-B5A756BAF0FA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6FF3C30D-AC1F-34C3-5D37-65017C64BD50"/>
+<colUsage columnID="9DFC2332-439E-0349-28AB-D951EC00AFAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A72C4A6-A7A2-6ABD-8581-A0E4C84BFAC9" name="SALE__IDX">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 08:51:34 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EEB03FDE-7BCF-84DB-FC68-B5A756BAF0FA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FBC94261-67E1-8158-2593-9B840BA947E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="784F67D6-4C91-03D5-338D-DBFE23E0CBDC" name="ARTWORK_SOLD">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>BE8A67AB-235A-B471-5CDA-AE18A0D7C336</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9714BC4-24B1-CD70-C3BA-1C576B9F3DC9"/>
+<colUsage columnID="2FEDC7BA-FDBD-6D38-9D1B-25CD891B935A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42DCBE9C-EE09-A303-2560-D04AFB19E6FC" name="EXHIBITION_SALE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>EEB03FDE-7BCF-84DB-FC68-B5A756BAF0FA</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBC94261-67E1-8158-2593-9B840BA947E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F007BF-64E7-B302-5D42-E05B66138A4B" name="SALES_TO_CUSTOMER">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>10345063-13B1-810E-48CF-2A19859D6479</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC5C6AC0-DD47-C45C-A041-FE3B366E94C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

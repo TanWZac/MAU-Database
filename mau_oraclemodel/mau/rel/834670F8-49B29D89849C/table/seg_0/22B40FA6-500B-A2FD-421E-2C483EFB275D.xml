@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22B40FA6-500B-A2FD-421E-2C483EFB275D" name="GALLERY">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>C63DAB7C-FAD3-F20D-0051-53478B43AFC6</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Gal_id" id="87EC8425-8379-8C03-54AB-6D422DA73C53">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery identifier]]></commentInRDBMS>
+<generatorID>26EFD3CD-A2DC-FAC1-23B8-F739652823B8</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_name" id="EFA37D49-5600-C071-71E9-E87E7B867709">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery name]]></commentInRDBMS>
+<generatorID>B850664B-ACBB-1707-BB89-66B64A625A0D</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_fname" id="DE0F76BD-01E6-C8D0-D253-94B50734700C">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Managerfirst  name]]></commentInRDBMS>
+<generatorID>AA3317C0-8D6C-5FBD-B4F4-A7425563A005</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_lname" id="28FA0ADB-0801-638C-3463-1A8E19A5E270">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Manager last name]]></commentInRDBMS>
+<generatorID>DC7E35D3-7675-7B19-BF49-14A7168D09F3</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_street" id="9FDC980D-8CDD-D76F-63CD-72E41F3003FB">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery street]]></commentInRDBMS>
+<generatorID>CEBE31CA-8A55-9E8E-E59C-6F47A2C51F14</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_town" id="38FA46D7-207D-CE13-1750-65293036DAA7">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery town]]></commentInRDBMS>
+<generatorID>8F112618-95FD-3A19-875D-F826B5D0137E</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_state" id="8D22CE60-C861-855F-9CB1-AF6FCA4999E0">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery state]]></commentInRDBMS>
+<generatorID>27AE6B69-4BA2-EB0F-29C5-6B38E5330BDF</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_tel_no" id="8BE788CD-5905-C827-5994-66500671E090">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery phone number]]></commentInRDBMS>
+<generatorID>4BA6BB69-96B4-4CDE-82A0-1579EF2949B8</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_open" id="00242981-85A0-3119-CF4B-ADDFBFE3C17E">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery open time]]></commentInRDBMS>
+<generatorID>E83DB8E8-685C-5F29-2FFA-1CDC60EE70D6</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gal_close" id="3D179D31-246F-744B-C8B5-011C1F46C250">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Gallery closing time]]></commentInRDBMS>
+<generatorID>2CD3C4EB-9A92-A9A8-0487-646642BDF876</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AB8D3B7-91A5-4BF8-7DF2-DE580B88F7E3" name="GALLERY_PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>0ABF715D-C752-0FAD-3121-EA343DD24784</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87EC8425-8379-8C03-54AB-6D422DA73C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2677D57E-813D-A947-4D9B-6A3394B07394" name="STYLE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 02:04:28 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Artwork_style_no" id="DDEECF57-5E46-2C5A-34F6-3F0FA1381D25">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 04:12:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork_style_no]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artwork_style" id="FC8361ED-F1E7-D41A-C92E-E21E4D231F79">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 02:04:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork style]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artwork_parent_style" id="E9906706-7458-C48E-5335-1FE92EB75B5B">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 02:09:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork_parent_style]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D73A5A5-8CB4-1FC0-06E0-C35F643232D5" name="STYLE PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 02:09:29 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDEECF57-5E46-2C5A-34F6-3F0FA1381D25</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BD606640-3D72-10EE-77BC-CFD0144B3D54" name="NK_STYLE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 04:14:22 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="false"/>
+</engineerTo>
+<newElementsIDs>FC8361ED-F1E7-D41A-C92E-E21E4D231F79</newElementsIDs>
+<usedAttributes>
+<attributeRef>FC8361ED-F1E7-D41A-C92E-E21E4D231F79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

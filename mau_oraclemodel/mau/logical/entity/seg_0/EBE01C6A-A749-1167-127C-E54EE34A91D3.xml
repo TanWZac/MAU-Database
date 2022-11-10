@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBE01C6A-A749-1167-127C-E54EE34A91D3" name="CUSTOMER">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:32:56 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cus_id" id="75DC7EFC-D143-82DE-9311-DAFC092FE71F">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:33:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer identifier]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_fname" id="CEF0E02C-7771-6D9A-0739-7D432059D5CD">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:34:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customerfirst  name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_lname" id="8C53023B-7A1D-9628-3FFD-CEF46A012F86">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-07 05:52:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer last name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Business_name" id="36F9901B-CED3-E320-72F4-6163EF032AE3">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:34:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer business name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_street" id="A0958F03-326F-22E5-5865-A186F0329EF2">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:35:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer street]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_town" id="C2F31942-4E39-B46C-8796-30F258B6CA58">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-07 05:53:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer town]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_state" id="36F85395-6A4B-B186-EF6F-1FED63B27338">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-07 05:53:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer state]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cus_tel_no" id="5B36553E-9509-F769-9D7D-C5C948C0C20D">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:36:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Customer phone number]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9CE930C-05A7-0A49-F8D1-482B1FFBCE02" name="CUSTOMER PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:33:27 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75DC7EFC-D143-82DE-9311-DAFC092FE71F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

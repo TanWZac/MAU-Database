@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARTWORK_STYLE" directorySegmentName="seg_0" id="41A24517-FC45-8915-8988-367BD258829C">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 02:05:28 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<sourcePk>763FBF0F-D43A-7DB1-E681-7806070867C1</sourcePk>
+<targetPk>4D73A5A5-8CB4-1FC0-06E0-C35F643232D5</targetPk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C6A601DF-1D3B-C771-E474-56A35B475E2C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2677D57E-813D-A947-4D9B-6A3394B07394</targetEntity>
+<transferable>true</transferable>
+</Relation>

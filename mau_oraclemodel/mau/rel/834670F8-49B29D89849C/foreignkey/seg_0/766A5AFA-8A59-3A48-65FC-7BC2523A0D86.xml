@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="766A5AFA-8A59-3A48-65FC-7BC2523A0D86" containerWithKeyObject="BBB36E5C-8DB7-431D-7C4F-A92E32D7684D" localFKIndex="5B05FF6C-6CF7-E6F4-2344-64990E8E4567" name="GALLERY_DISPLAY">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 02:02:28 UTC</createdTime>
+<generatorID>810C2F71-0D1F-16FE-D04C-93966C907D20</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<referredTableLongName>GALLERY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22B40FA6-500B-A2FD-421E-2C483EFB275D</referredTableID>
+<keyObject>9AB8D3B7-91A5-4BF8-7DF2-DE580B88F7E3</keyObject>
+<referredKeyID>9AB8D3B7-91A5-4BF8-7DF2-DE580B88F7E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Gal_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

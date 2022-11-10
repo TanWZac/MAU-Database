@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C6A601DF-1D3B-C771-E474-56A35B475E2C" name="ARTWORK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:54:36 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Artwork_no" id="ED48205E-37C7-0098-C235-3F48E6D63320">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 01:48:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork identifier]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artist_code" id="6131C0B1-A8F6-8A23-7152-2C7C9537B35B">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-07 06:31:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artist identifier]]></commentInRDBMS>
+<generatorID>2621DCAF-9CF7-4F2C-3555-C6725450FA84</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<referedAttribute>8E00D925-AD36-C6E2-43D5-B2628A05A40F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artwork title" id="8774619B-4B2D-AB54-7E7B-6F3FED369B0A">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:56:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork title]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artwork_date" id="BB5430AC-2A98-E335-360E-F03BDB1617BE">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:56:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork date of work]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Media_name" id="BA8269A7-55B2-EAC6-9D2D-3E7B41A67FA1">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:58:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Media name]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Min_price" id="D857C7B1-AE13-59CB-6BA1-AC4F3DA530AC">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:59:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Minimum pricing]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_added_to_stock" id="1F661402-4671-84AB-AE7A-BA9ACF1D5300">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-11 01:57:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date added to stock]]></commentInRDBMS>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artwork_style_no" id="EB5AECF1-8BD7-4FBF-C29A-9B73361B061E">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 04:13:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Artwork_style_no]]></commentInRDBMS>
+<generatorID>41A24517-FC45-8915-8988-367BD258829C</generatorID>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<referedAttribute>DDEECF57-5E46-2C5A-34F6-3F0FA1381D25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="763FBF0F-D43A-7DB1-E681-7806070867C1" name="ARTWORK PK">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-06 04:55:25 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6131C0B1-A8F6-8A23-7152-2C7C9537B35B</attributeRef>
+<attributeRef>ED48205E-37C7-0098-C235-3F48E6D63320</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

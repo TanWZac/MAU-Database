@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GALLERY_STATUS" directorySegmentName="seg_0" id="E9595E77-DBB6-6CC2-7429-630CB6B08115">
+<createdBy>wtan0053</createdBy>
+<createdTime>2020-05-10 09:13:43 UTC</createdTime>
+<ownerDesignName>mau</ownerDesignName>
+<engineerTo>
+<item key="834670F8-5075-1BD6-5202-49B29D89849C" value="true"/>
+</engineerTo>
+<sourcePk>0ABF715D-C752-0FAD-3121-EA343DD24784</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C63DAB7C-FAD3-F20D-0051-53478B43AFC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>293A6D20-357C-1E5C-7618-9F7B9658B59A</targetEntity>
+<transferable>true</transferable>
+</Relation>
